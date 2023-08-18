@@ -1,0 +1,11 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat:ital,wght@0,400;1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import './components/navbar.scss'
