@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
 
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -14,6 +13,48 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="home-container">
+        <section className="home-phrase">
+          <h2>“SEGUIAMO I NOSTRI FRUTTETI CON CURA E DEDIZIONE”</h2>
+          <p>Alberino Pascale</p>
+        </section>
+        <section className="home-columns-container">
+          <div className="home-column">
+            <h3>CHI SIAMO</h3>
+            <p>
+              A beauty or esthetic salon is a commercial establishment that
+              offers its customers treatments for the beautification,
+              conservation and hygiene of the skin, with the primary purpose of
+              promoting the healthy image of its customers.
+            </p>
+          </div>
+          <div className="home-column">
+            <h3>MISSION AZIENDALE</h3>
+            <p>
+              Beauty salons are places to relax, raise self-esteem, receive
+              attention, feel pampered, that's why surprising your clients is
+              also very important. Surprise them with a gift for Mother's Day,
+              for their birthday, because summer has started and it's time to be
+              radiant, etc.
+            </p>
+          </div>
+          <div className="home-column">
+            <h3>TEAM</h3>
+            <p>
+              Bleach resistant hand towels. Professional capes for hairdressers.
+              Hair pins for hairdresser's hairstyles. Brushes for hair dye
+              application. Professional gloves for hair coloring. Caps for hair
+              color processing.
+            </p>
+          </div>
+        </section>
+        <section className="home-showmore-button-container">
+          <a className="home-showmore-button">Scopri di piu</a>
+        </section>
+        <div className="home-image">
+          <img src="./foto-castagne.jpg" />
+        </div>
+      </div>
     </>
-  )
+  );
 }

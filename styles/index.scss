@@ -1,6 +1,12 @@
 
   @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat:ital,wght@0,400;1,100&display=swap');
 
+  @font-face {
+    font-family: 'Autography';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Autography'), url('../public/Autography.otf') format('opentype');
+  }
 *{
     padding: 0;
     margin: 0;
@@ -8,4 +14,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-@import './components/navbar.scss'
+
+
+/*COMPONENTS*/
+@import './components/navbar.scss';
+@import './components/footer.scss';
+
+
+/*PAGES*/
+
+@import './pages/home.scss';
+@import './pages/chi-siamo.scss';
+@import './pages/prodotti.scss';

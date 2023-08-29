@@ -1,0 +1,84 @@
+.about-container{
+    .about-description{
+        padding:0 30%;
+        .about-title{
+            text-align: center;
+            text-transform: uppercase;
+            color: rgb(185, 134, 125);
+            margin-top: 2em;
+            font-weight: 300;
+        }
+        .about-slogan{
+            padding: 1.5em 0;
+            text-align: center;
+            font-weight: 300;
+            padding-bottom: 3em;
+        }
+        p{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            
+        }
+        .about-last-slogan{
+            margin: 4rem 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            color:rgb(185, 134, 125);
+            text-align: center;
+            font-family: "Autography";
+            font-size: 1.8em;
+            font-weight: 100;
+        }
+    }
+    .chi-siamo-image {
+        height: 70vh;
+        width: 100%;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+}
+@media screen and (max-width: 992px) {
+    .about-container{
+
+        .about-description{
+            padding:0 5%;
+            .about-title{
+                text-align: center;
+                text-transform: uppercase;
+                color: rgb(185, 134, 125);
+                margin-top: 2em;
+                font-weight: 300;
+            }
+            .about-slogan{
+                
+                text-align: center;
+                font-weight: 300;
+                
+            }
+            p{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                
+            }
+            .about-last-slogan{
+                
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                color:rgb(185, 134, 125);
+                text-align: center;
+                font-family: "Autography";
+                font-size: 1.8em;
+                font-weight: 100;
+            }
+        }
+    }
+}

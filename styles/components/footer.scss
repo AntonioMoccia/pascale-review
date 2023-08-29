@@ -1,0 +1,21 @@
+.footer{
+    width: 100vw;
+    max-width: 100%;
+    h3{
+        padding-top: 3em;
+        text-transform: uppercase;
+        font-weight: 200;
+        text-align: center;
+    }
+    .social-container{
+        padding: 3rem 0;
+        display: flex;
+        justify-content: center;
+        gap:1.5em;
+
+        .social-item{
+            font-size: 2rem;
+            color: rgb(185, 134, 125);
+        }
+    }
+}

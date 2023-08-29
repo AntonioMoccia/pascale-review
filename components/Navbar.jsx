@@ -3,6 +3,9 @@ import React from "react";
 function Navbar() {
   return (
     <header className="header-navbar">
+        <div className="mobile-logo">
+          <img src="./pascale-logo.png" />
+        </div>
       <nav className="nav">
         <ul>
           <li className="item-menu">
@@ -21,6 +24,9 @@ function Navbar() {
             <a className="item-menu-link">Contatti</a>
           </li>
         </ul>
+        <div>
+   {/*        content */}
+        </div>
       </nav>
     </header>
   );

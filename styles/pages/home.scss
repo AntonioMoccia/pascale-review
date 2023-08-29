@@ -1,0 +1,86 @@
+.home-container {
+  min-height: 100vh;
+  .home-phrase {
+    width: 100%;
+    text-align: center;
+    padding: 120px 0;
+    h2 {
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+    p {
+      font-family: "Autography";
+      font-size: 2em;
+    }
+  }
+  .home-columns-container {
+    display: flex;
+    margin: 0 20%;
+    gap: 5%;
+    border-top: 1px solid rgb(185, 134, 125);
+    border-bottom: 1px solid rgb(185, 134, 125);
+    padding: 20px 0;
+    /*     margin-bottom: 10%;
+ */
+    h3 {
+      color: rgb(185, 134, 125);
+      font-weight: 600;
+      padding: 10px 0;
+    }
+  }
+  .home-showmore-button-container {
+    width: 100%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .home-showmore-button {
+      padding: 10px 80px;
+      border-radius: 25px;
+      font-weight: 800;
+      color: white;
+      text-transform: uppercase;
+      background-color: rgb(185, 134, 125);
+    }
+  }
+  .home-image {
+    height: 50vh;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .home-container {
+    .home-phrase {
+      width: 100%;
+      text-align: center;
+      padding: 120px 0;
+      h2 {
+        font-weight: 400;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+        padding:0 1rem;
+      }
+      p {
+        font-family: "Autography";
+        font-size: 2em;
+      }
+    }
+    .home-columns-container {
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem 0;
+      gap: 1.5rem;
+      padding: 20px 36px;
+      margin: 0 2em;
+      border-bottom: 0;
+    }
+    .home-phrase {
+      padding: 100px 0;
+    }
+  }
+}
