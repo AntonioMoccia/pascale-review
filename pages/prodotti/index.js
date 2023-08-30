@@ -35,15 +35,20 @@ function index() {
       <div className="prodotti-image">
         <img src="./foto-castagne.jpg" />
       </div>
-      <section className="product-list">
-        <div className="product-card">
-          <img src="./prodotto1.jpg" />
-        </div>
-        <div className="product-card">
-          <img src="./prodotto2.jpg" />
-        </div>
-        <div className="product-card">
-          <img src="./prodotto3.jpg" />
+      <h2 className="products-title">
+          I nostri prodotti
+      </h2>
+      <section className="product-list-container">
+        <div className="product-list">
+          <div className="product-card">
+            <img src="./prodotto1.jpg" />
+          </div>
+          <div className="product-card">  
+            <img src="./prodotto2.jpg" />
+          </div>
+          <div className="product-card">
+            <img src="./prodotto3.jpg" />
+          </div>
         </div>
       </section>
     </div>

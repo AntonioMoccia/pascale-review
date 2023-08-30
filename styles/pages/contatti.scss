@@ -1,0 +1,89 @@
+.contatti-container {
+  display: flex;
+  .left-section-container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .left-section__image {
+      img {
+        width: 120px;
+        height: auto;
+      }
+    }
+    .left-section__info {
+      margin-top: 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .right-section-container {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .right-section__form {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      label {
+        color: rgb(185, 134, 125);
+        margin-bottom: 0.5rem;
+        margin-top: 5%;
+      }
+      .form__input {
+        border: 1px solid rgb(185, 134, 125);
+        outline: none;
+        height: 1.5rem;
+        &:focus {
+          border: 2px solid rgb(185, 134, 125);
+        }
+        &::placeholder{
+            color: rgb(185, 134, 125);
+            padding: .5rem;
+        }
+      }
+      .form__textarea{
+        border: 1px solid rgb(185, 134, 125);
+        outline: none;
+        height: 3.5rem;
+        max-width: 100%;
+        min-width: 100%;
+        &:focus {
+          border: 2px solid rgb(185, 134, 125);
+        }
+        &::placeholder{
+            color: rgb(185, 134, 125);
+            padding: .5rem;
+        }
+      }
+      .form__submit{
+        margin-top: 5%;
+        background-color: rgb(185, 134, 125);
+        border: 0;
+        padding: 0.4rem 0;
+        width: 100%;
+        color: white;
+    }
+    }
+  }
+}
+@media screen and (max-width: 702px) {
+    .contatti-container{
+        margin-top: 3rem;
+        flex-direction: column-reverse;
+        .left-section-container{
+            width: 100%;
+            max-height: 50vh;
+            .left-section__image{
+                display: none;
+            }
+        }
+        .right-section-container{
+            width:100%
+        }
+    }
+}

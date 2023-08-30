@@ -14,7 +14,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
+main{
+  max-width: 100%
+}
+@media(max-width: 320px){ 
+  body{
+    display: none;
+  } 
+}
 
 /*COMPONENTS*/
 @import './components/navbar.scss';
@@ -26,3 +33,5 @@
 @import './pages/home.scss';
 @import './pages/chi-siamo.scss';
 @import './pages/prodotti.scss';
+@import './pages/prodotto.scss';
+@import './pages/contatti.scss';

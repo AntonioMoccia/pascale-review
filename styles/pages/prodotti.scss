@@ -35,28 +35,50 @@
   .prodotti-image {
     height: 70vh;
     width: 100%;
+    display: none;
     img {
       height: 100%;
       width: 100%;
       object-fit: cover;
     }
   }
-  .product-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap:10%;
-    .product-card {
-        min-width: calc(100%/4);
+  .products-title {
+    background-color: rgb(185, 134, 125);
+    max-width: 300px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+    text-transform: uppercase;
+    color: white;
+    
+  }
+  .product-list-container {
+    padding: 5rem 0;
+    .product-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-gap: 1rem;
+      margin:0 2rem;
+      .product-card {
+        height: 480px;
+        max-height: 480px;
+        min-height: 480px;
+        overflow: hidden;
+        position: relative;
         img {
-          width: 350px;
-          height: 530px;
+          width: 100%;
         }
         :hover {
           filter: grayscale(3);
         }
+      }
     }
   }
 }
+
 @media screen and (max-width: 992px) {
   .prodotti-container {
     .prodotti-description {
