@@ -4,7 +4,7 @@ function index() {
   return (
     <div className="prodotti-container">
       <section className="prodotti-description">
-        <h3 className="prodotti-title">Chi Siamo</h3>
+        <h3 className="prodotti-title">Prodotti</h3>
         <h2 className="prodotti-slogan">
           “PASSIONE PER LA NATURA DA TRE GENERAZIONI”
         </h2>
@@ -35,6 +35,17 @@ function index() {
       <div className="prodotti-image">
         <img src="./foto-castagne.jpg" />
       </div>
+      <section className="product-list">
+        <div className="product-card">
+          <img src="./prodotto1.jpg" />
+        </div>
+        <div className="product-card">
+          <img src="./prodotto2.jpg" />
+        </div>
+        <div className="product-card">
+          <img src="./prodotto3.jpg" />
+        </div>
+      </section>
     </div>
   );
 }
