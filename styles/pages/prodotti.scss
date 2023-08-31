@@ -61,10 +61,10 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       grid-gap: 1rem;
-      margin:0 2rem;
+      margin:0 5%;
       .product-card {
         height: 480px;
-        max-height: 480px;
+        max-height: 580px;
         min-height: 480px;
         overflow: hidden;
         position: relative;
